@@ -18,7 +18,7 @@ int binpow(int a,int n)
 
 int main()
 {
-    int a,n;
+    int a,n; // a^n
     while(scanf("%d%d",&a,&n)==2)
     {
         printf("%d\n",binpow(a,n));
